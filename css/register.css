@@ -1,0 +1,85 @@
+body{
+    font-size: 13px;
+}
+a{
+    text-decoration: none;
+}
+/* 头部 */
+.Top{
+    height: 85px;
+    border-bottom: 1px solid #999;
+    box-shadow: 0 0 12px grey;
+}
+.Top .left{
+    display: inline;
+    margin-left: 30px;
+}
+.Top .right{
+    margin-top: 20px ;
+    float: right;
+    margin-right: 30px;
+    color: #666;
+}
+.Top .right span:last-child{
+    border: 1px solid black;
+    vertical-align: middle;
+    margin-left: 20px;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+}
+/* 中间 */
+.middle{
+    width: 360px;
+    height: 390px;
+    /* text-align: center; */
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+form{
+    margin-bottom: 20px;
+}
+form input{
+    width: 330px;
+    height: 50px;
+    margin:10px 0;
+    padding-left: 10px;
+}
+form .top input{
+    width: 205px;
+    /* padding-left: 10px; */
+}  
+form label{
+    width: 20px;
+}     
+form .top .btn{
+    width:120px ;
+    height: 53px;
+    background-color:#ccc;
+    border: 0;
+    /* display: block; */
+    margin: 10px 0;
+}
+form button{
+    width: 344px;
+    height: 50px;
+    color: #fff;
+    background-color: red;
+    border: 0;
+}
+form .last{
+    margin-bottom: 10px;
+}
+/* 最下面 */
+.footer{
+    width: 360px;
+    height: 60px;
+}
+.footer p{
+    text-align: center;
+    margin: 10px 0;
+}
